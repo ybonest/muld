@@ -597,3 +597,9 @@ export const $switch: CSSProperties = {
     font_size: '1.875rem',
     border: '0.0625rem solid rgba(0, 0, 0, 0.1)',
 };
+
+export const $sku: CSSProperties = {
+    item_background_color: `${$background_color}`,
+    icon_gray_color: `${$gray4}`,
+    upload_mask_color: 'rgba(50, 50, 51, 0.8)',
+};
